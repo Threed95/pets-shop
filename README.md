@@ -13,7 +13,7 @@
   <div class="shop-item">
     <img src="">
     <div class="content">
-      <div class="tags"></div>
+      <div class="tags"></div>      
       <h1></h1>
       <p></p>
       <span class="price"></span>
@@ -21,6 +21,10 @@
   </div>
   ```
 - Отрисованные объекты подставь внутрь элемента с `id="shop-items"`
+
+
+
+
 
 
 
