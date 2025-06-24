@@ -99,13 +99,14 @@ function createCard(cardItem) {
     const tagsPlace = shopCard.querySelector(".tags");
     tags.forEach(tag => {
         const span = document.createElement("span");
-        span.classList.add('tags');
         span.textContent = tag;
+        span.classList.add("tag");
         tagsPlace.append(span);
     });
 
     return shopCard;
 }
+
 
 function appendCard(arr) {
     arr.forEach(shopCard => {
